@@ -3,7 +3,7 @@ GBS Work Applied to Lolium multiflorum November 2026 — 100 accessions from Ama
 # Description of the research work on Lolium multiflorum
 Ryegrass samples had previously been collected in Chachapoyas, Pomacochas, Cajamarca, Bongora, and Luya.
 # DNA Extraction and Genotyping by Sequencing
-Se tomaron las hojas de ryegrass, siguiendo el protocolo de Bobadilla et al., 2026 (https://doi.org/10.3389/fpls.2026.1818688) and genotyping by sequencing was performed according to the sequencing standards of (https://doi.org/10.1371/journal.pone.0090346)
+Ryegrass leaves were collected following the protocol described by Bobadilla et al., 2026 (https://doi.org/10.3389/fpls.2026.1818688) and genotyping by sequencing was performed according to the sequencing standards of (https://doi.org/10.1371/journal.pone.0090346)
 # Bioinformatics Analysis
 The bioinformatics analysis was performed using the TASSEL v5 pipeline on an HPC system, utilizing Rmarkdown templates for the analyses
 # GBS Data Validation
