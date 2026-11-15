@@ -14,3 +14,5 @@ The poppr and adegenet tools were used for AMOVA analysis, and ade4 was used to 
 For the phylogenetic analysis, the cleaned SNPs that passed the filters were used to construct the phylogenetic tree using PGPGspider, RAXmlHPC, ggtree, ggtreeExtra, and ANNOVAR to visualize the phylogenetic tree, specifying its K-structures with the specific SNPs previously annotated to determine the genetic population of ryegrass.
 # Genetic Similarity Networks
 For the analysis of genetic similarity networks, we used the previous results from the G matrix of AGHmatrix, along with the igraph package
+# PCA Analysis
+![PCA-3D](3D-PCA-txt_315_degrees_5_pxN_2pxP.png)
