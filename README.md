@@ -7,7 +7,7 @@ Ryegrass leaves were collected following the protocol described by Bobadilla et 
 # Bioinformatics Analysis
 The bioinformatics analysis was performed using the TASSEL v5 pipeline on an HPC system, utilizing Rmarkdown templates for the analyses
 # GBS Data Validation
-For the analysis, we used the VCFtools v0.1.17 tool (Minor Allele Frequency), with the following filters: MAF > 0.05, missing data ≤ 0.1, and MAC (Minor Allele Count) ≥ 3 . In addition, the cyvcf2 and scikit-allel tools were used to perform linkage disequilibrium analysis with r² = 0.5 using Python v3.12.3.
+For the analysis, we used the VCFtools v0.1.17 tool , with the following filters: MAF (Minor Allele Frequency) > 0.05, missing data ≤ 0.1, and MAC (Minor Allele Count) ≥ 3 . In addition, the cyvcf2 and scikit-allel tools were used to perform linkage disequilibrium analysis with r² = 0.5 using Python v3.12.3.
 # Analysis of population structure and genetic diversity
 The poppr and adegenet tools were used for AMOVA analysis, and ade4 was used to perform 999 permutations. Additionally, ADMIXTURE was used to perform population structure analysis with k ranging from 1 to 20, with 10 replications. Furthermore, the vcfR, adegenet, hierfstat, ggplot2, ggExtra, tidypopgen and AGHmatrix packages were used to perform analyses of genetic diversity and genetic structure.
 # Phylogenetic analysis
