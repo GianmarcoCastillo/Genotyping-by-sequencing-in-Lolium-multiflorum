@@ -6,6 +6,7 @@ Ryegrass samples had previously been collected in Chachapoyas, Pomacochas, Cajam
 Ryegrass leaves were collected following the protocol described by Bobadilla et al., 2026 (https://doi.org/10.3389/fpls.2026.1818688) and genotyping by sequencing was performed according to the sequencing standards of (https://doi.org/10.1371/journal.pone.0090346)
 # Bioinformatics Analysis
 The bioinformatics analysis was performed using the TASSEL v5 pipeline on an HPC system, utilizing Rmarkdown templates for the analyses
+https://statgen.esalq.usp.br/site/Genotyping-by-Sequencing-(a-TASSEL-Tutorial)/
 # GBS Data Validation
 For the analysis, we used the VCFtools v0.1.17 tool , with the following filters: MAF (Minor Allele Frequency) > 0.05, missing data ≤ 0.1, and MAC (Minor Allele Count) ≥ 3 . In addition, the cyvcf2 and scikit-allel tools were used to perform linkage disequilibrium analysis with r² = 0.5 using Python v3.12.3.
 # Analysis of population structure and genetic diversity
